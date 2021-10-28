@@ -1,0 +1,7 @@
+	##	comando:		make -f Makefile.win
+
+dev:
+
+	@echo "start Dev enviroment"
+	@cd frontend && npm start &
+	@cd backend && php artisan serve
