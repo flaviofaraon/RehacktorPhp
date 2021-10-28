@@ -1,3 +1,5 @@
+	##	https://github.com/flaviofaraon/RehacktorPhp.git
+	##	git@github.com:flaviofaraon/RehacktorPhp.git
 	##	comando:		make -f Makefile.win
 
 dev:
