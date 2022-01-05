@@ -1,4 +1,4 @@
-import classes from "./Info.module.css";
+// import classes from "./Info.module.css";
 
 export default function Info(){
     return(
