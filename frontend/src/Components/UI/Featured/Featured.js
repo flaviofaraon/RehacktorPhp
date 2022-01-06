@@ -1,4 +1,5 @@
 import {useState , useEffect} from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Featured (){
 
@@ -23,7 +24,7 @@ export default function Featured (){
                                 <div className="card bg-transparent">
                                     <img src={el.background_image} className="card-img-top" />
                                     <div className="card-body">
-                                        <h5 className="card-title">{el.name}</h5>
+                                        <Link to={`/game/${el.slug}`}className="card-title">{el.name}</Link>
                                     </div>
                                 </div>
                             </div>

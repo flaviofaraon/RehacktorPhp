@@ -18,10 +18,10 @@ function App() {
           <Search />
         </Route>
 
-        <Route path="/game">
+        <Route path="/game/:slug">
           <Game />
         </Route>
-        
+
         <Route path="/">
           <Home />
         </Route>
