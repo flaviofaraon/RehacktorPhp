@@ -3,34 +3,34 @@
 export default function Info(){
     return(
 
-        <div className={"container-fluid my-5 bg-danger" }>
+        <div className={"container-fluid my-5" }>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-lg-4">
-                        <p>registrati</p>
+                    <div className="col-12 col-lg-4 text-center">
+                        <p className="text-light fw-bold fs-3 text-uppercase">registrati</p>
                     </div>
 
-                    <div className="col-12 col-lg-4">
-                        <p>scegli </p>
+                    <div className="col-12 col-lg-4 text-center">
+                        <p className="text-light fw-bold fs-3 text-uppercase">scegli </p>
                     </div>
 
-                    <div className="col-12 col-lg-4">
-                        <p>streamma</p>
+                    <div className="col-12 col-lg-4 text-center">
+                        <p className="text-light fw-bold fs-3 text-uppercase">streamma</p>
                     </div>
                 </div>
 
 
                 <div className="row">
-                    <div className="col-12 col-lg-4">
-                        <p>giochi</p>
+                    <div className="col-12 col-lg-4 text-center">
+                        <p className="text-light fw-bold fs-3 text-uppercase">giochi</p>
                     </div>
 
-                    <div className="col-12 col-lg-4">
-                        <p>categorie</p>
+                    <div className="col-12 col-lg-4 text-center">
+                        <p className="text-light fw-bold fs-3 text-uppercase">categorie</p>
                     </div>
                     
-                    <div className="col-12 col-lg-4">
-                        <p>piattaforme</p>
+                    <div className="col-12 col-lg-4 text-center">
+                        <p className="text-light fw-bold fs-3 text-uppercase">piattaforme</p>
                     </div>
                 </div>
             </div>
